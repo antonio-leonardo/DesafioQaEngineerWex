@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QaEngineerWex.ConsoleApp", "QaEngineerWex.ConsoleApp\QaEngineerWex.ConsoleApp.csproj", "{E81FCC2D-C11E-44ED-AD77-0D37BB69EAB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QaEngineerWex.UnitTest", "QaEngineerWex.UnitTest\QaEngineerWex.UnitTest.csproj", "{5012D543-F070-4649-ABC2-359B49DF1D7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QaEngineerWex.Model", "QaEngineerWex.Model\QaEngineerWex.Model.csproj", "{F0131461-CB4D-4615-88FC-8F1324E993F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 1 - Programming Logic", "Session 1 - Programming Logic", "{7417DC84-4E2D-40A3-8174-E23F87974BE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Session 2 - Test Automation", "Session 2 - Test Automation", "{FF8BA17D-893F-4123-9372-415B4120339C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E81FCC2D-C11E-44ED-AD77-0D37BB69EAB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E81FCC2D-C11E-44ED-AD77-0D37BB69EAB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E81FCC2D-C11E-44ED-AD77-0D37BB69EAB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E81FCC2D-C11E-44ED-AD77-0D37BB69EAB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5012D543-F070-4649-ABC2-359B49DF1D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5012D543-F070-4649-ABC2-359B49DF1D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5012D543-F070-4649-ABC2-359B49DF1D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5012D543-F070-4649-ABC2-359B49DF1D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0131461-CB4D-4615-88FC-8F1324E993F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0131461-CB4D-4615-88FC-8F1324E993F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0131461-CB4D-4615-88FC-8F1324E993F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0131461-CB4D-4615-88FC-8F1324E993F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E81FCC2D-C11E-44ED-AD77-0D37BB69EAB0} = {7417DC84-4E2D-40A3-8174-E23F87974BE8}
+		{5012D543-F070-4649-ABC2-359B49DF1D7C} = {FF8BA17D-893F-4123-9372-415B4120339C}
+		{F0131461-CB4D-4615-88FC-8F1324E993F6} = {FF8BA17D-893F-4123-9372-415B4120339C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34BF5DA4-8A3E-4582-B5E3-38802184F02E}
+	EndGlobalSection
+EndGlobal
