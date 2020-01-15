@@ -15,6 +15,8 @@ This folder contains the two topics approach resolved by Console Application App
 This folder contains the Test Automation project, with model abstraction with Service concept
 (at Class Library assembly) and "Unit Test Project" using SpecFlow Gherkin configuration and
 Tester class to validate results.
+
+At this session was added new Test case based on "www.wexinc.com" navigation test case at 2020 January 15th.
 ```
 
 
