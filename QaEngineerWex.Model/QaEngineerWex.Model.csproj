@@ -41,14 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AmazonObjectItem.cs" />
-    <Compile Include="AmazonObjectType.cs" />
-    <Compile Include="AmazonSearch.cs" />
-    <Compile Include="AmazonSelectedObject.cs" />
+    <Compile Include="Amazon\AmazonObjectItem.cs" />
+    <Compile Include="Amazon\AmazonObjectType.cs" />
+    <Compile Include="Amazon\AmazonSearch.cs" />
+    <Compile Include="Amazon\AmazonSelectedObject.cs" />
     <Compile Include="Service\IEcommerceSearch.cs" />
     <Compile Include="Service\IObjectItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\ABEcommerceSelectedObject.cs" />
+    <Compile Include="WEX\WexObjectItem.cs" />
+    <Compile Include="WEX\WexObjectType.cs" />
+    <Compile Include="WEX\WexSearch.cs" />
+    <Compile Include="WEX\WexSelectedObject.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

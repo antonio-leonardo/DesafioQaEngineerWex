@@ -42,8 +42,9 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AmazonAutomatedTestSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QaEngineerWexSteps.cs" />
+    <Compile Include="WexIncAutomatedTestSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MSTest.TestAdapter">
@@ -63,7 +64,8 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="QaEngineerWex.feature" />
+    <None Include="AmazonAutomatedTest.feature" />
+    <None Include="WexIncAutomatedTest.feature" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\QaEngineerWex.Model\QaEngineerWex.Model.csproj">

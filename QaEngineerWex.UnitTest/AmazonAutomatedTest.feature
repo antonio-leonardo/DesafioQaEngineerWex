@@ -1,8 +1,8 @@
-﻿Feature: QaEngineerWex
+﻿Feature: AmazonAutomatedTest
 	Test for QA Engineer position
 	With a Test Automation case
 
-@mytag
+@mytag1
 Scenario: WEX Brazil QA Test
 	Given I navigate to "www.amazon.com".
 	And I select the option "Books" in the dropdown next to the search text input criteria.

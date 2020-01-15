@@ -6,13 +6,13 @@ using TechTalk.SpecFlow;
 namespace QaEngineerWex.UnitTest
 {
     [Binding]
-    public class QaEngineerWexSteps
+    public class AmazonAutomatedTestSteps
     {
         private readonly AmazonSearch _amazonSearch;
         private readonly AmazonSelectedObject _amazonSelectedObject;
         private AmazonObjectItem SelectedObjectItem { get; set; }
-        
-        public QaEngineerWexSteps()
+
+        public AmazonAutomatedTestSteps()
         {
             #region ' Fake AMAZON site data '
             List<AmazonObjectItem> list = new List<AmazonObjectItem>();
@@ -90,13 +90,13 @@ namespace QaEngineerWex.UnitTest
         {
             this._amazonSearch.Url = Url;
         }
-        
+
         [Given(@"I select the option ""(.*)"" in the dropdown next to the search text input criteria\.")]
         public void GivenISelectTheOptionInTheDropdownNextToTheSearchTextInputCriteria_(AmazonObjectType criteria)
         {
             this._amazonSearch.SearchCriteriaFilter = criteria;
         }
-        
+
         [When(@"I reach the detailed book page, I check if the name in the header is the same name of the book that I select previously\.")]
         public void WhenIReachTheDetailedBookPageICheckIfTheNameInTheHeaderIsTheSameNameOfTheBookThatISelectPreviously_()
         {
@@ -112,7 +112,7 @@ namespace QaEngineerWex.UnitTest
         [Then(@"I select the cheapest book of the page without using any sorting method available\.")]
         public void ThenISelectTheCheapestBookOfThePageWithoutUsingAnySortingMethodAvailable_()
         {
-            this.SelectedObjectItem = this._amazonSelectedObject.GetWithCriteriaAndMinPrice();
+            this.SelectedObjectItem = this._amazonSelectedObject.GetWithCriteriaAndMinCriteria();
         }
     }
 }

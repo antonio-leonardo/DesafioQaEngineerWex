@@ -25,16 +25,16 @@ namespace QaEngineerWex.Model
             return this._list.Where(x => x.ObjectType == this._ecommerceSearch.SearchCriteriaFilter && (this._ecommerceSearch.SearchFor.ToLower().Contains(filter.ToLower()))).ToList();
         }
 
-        public override AmazonObjectItem GetWithCriteriaAndMinPrice()
+        public override AmazonObjectItem GetWithCriteriaAndMinCriteria()
         {
             double minPrice = this._list.Min(x => x.Price);
             return this._list.Where(x => x.ObjectType == this._ecommerceSearch.SearchCriteriaFilter && x.Price == minPrice).FirstOrDefault();
         }
 
-        public override AmazonObjectItem GetWithCriteriaAndMaxPrice()
+        public override AmazonObjectItem GetWithCriteriaAndMaxCriteria()
         {
-            double minPrice = this._list.Max(x => x.Price);
-            return this._list.Where(x => x.ObjectType == this._ecommerceSearch.SearchCriteriaFilter && x.Price == minPrice).FirstOrDefault();
+            double maxPrice = this._list.Max(x => x.Price);
+            return this._list.Where(x => x.ObjectType == this._ecommerceSearch.SearchCriteriaFilter && x.Price == maxPrice).FirstOrDefault();
         }
     }
 }

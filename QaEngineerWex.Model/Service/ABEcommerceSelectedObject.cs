@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace QaEngineerWex.Model.Service
 {
@@ -55,12 +55,12 @@ namespace QaEngineerWex.Model.Service
         /// Get the item with low cost
         /// </summary>
         /// <returns></returns>
-        public abstract ObjectItem GetWithCriteriaAndMinPrice();
+        public abstract ObjectItem GetWithCriteriaAndMinCriteria();
 
         /// <summary>
         /// Get the item with as more expensive
         /// </summary>
         /// <returns></returns>
-        public abstract ObjectItem GetWithCriteriaAndMaxPrice();
+        public abstract ObjectItem GetWithCriteriaAndMaxCriteria();
     }
 }

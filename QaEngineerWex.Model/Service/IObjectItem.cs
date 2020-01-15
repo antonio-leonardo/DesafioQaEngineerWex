@@ -9,8 +9,6 @@ namespace QaEngineerWex.Model.Service
     public interface IObjectItem<TEnum> where TEnum : struct, IConvertible
     {
         long ID { get; set; }
-        string Name { get; set; }
-        double Price { get; set; }
         TEnum ObjectType { get; set; }
         bool ValidationChecker();
     }
