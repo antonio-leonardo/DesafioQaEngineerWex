@@ -7,18 +7,17 @@
 ### 1st step
 ```
 At this step, resolves first exercise using Gherkin (to describe user storie) and C# code generation,
-mounting architecture and abstractions for future maintanence. With this step,
-had used for example a "www.wex.inc" to make sense test navigation.
+mounting architecture and abstractions for future maintanence. With this step, had used for example
+a "www.wex.inc" URL to make sense test navigation.
 ```
 
 ### 2nd step
 
 ```
 Maturity Test Automation project, with consolidated model abstraction DDD (Domain Drive Development)
-(at Class Library assembly) and "Unit Test Project" using SpecFlow Gherkin configuration and
-Tester class to validate results.
-
-At this session was added new Test case based on "www.amazon.com" navigation test case at 2020 January 15th.
+at Class Library assembly and "Unit Test Project" using SpecFlow Gherkin configuration with Tester
+class to validate results. At this session was added new Test case based on "www.amazon.com" navigation
+test case at 2020 January 15th.
 ```
 
 
