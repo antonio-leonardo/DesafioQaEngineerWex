@@ -4,19 +4,19 @@
 ## Project with a Challenge to understand Behavior Driven Development for .NET, following this topics bellow
 
 
-### Session 01
+### 1st step
 ```
-This folder contains the two topics approach resolved by Console Application Approach.
+At this step, resolves first exercise using Gherkin (to describe user storie) and C# code generation, mount architecture and abstractions for future maintanence. With this step, was used for example a "www.wex.inc" to make sense test navigation.
 ```
 
-### Session 02
+### 2nd step
 
 ```
-This folder contains the Test Automation project, with model abstraction with Service concept
+Maturity Test Automation project, with consolidated model abstraction DDD (Domain Drive Development)
 (at Class Library assembly) and "Unit Test Project" using SpecFlow Gherkin configuration and
 Tester class to validate results.
 
-At this session was added new Test case based on "www.wexinc.com" navigation test case at 2020 January 15th.
+At this session was added new Test case based on "www.amazon.com" navigation test case at 2020 January 15th.
 ```
 
 
