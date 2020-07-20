@@ -6,7 +6,9 @@
 
 ### 1st step
 ```
-At this step, resolves first exercise using Gherkin (to describe user storie) and C# code generation, mount architecture and abstractions for future maintanence. With this step, was used for example a "www.wex.inc" to make sense test navigation.
+At this step, resolves first exercise using Gherkin (to describe user storie) and C# code generation,
+mounting architecture and abstractions for future maintanence. With this step,
+had used for example a "www.wex.inc" to make sense test navigation.
 ```
 
 ### 2nd step
