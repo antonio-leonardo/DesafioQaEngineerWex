@@ -1,7 +1,7 @@
 
-![WEX](https://www.wexinc.com/wp-content/uploads/2018/08/logo-WEX.png)
-# Challenger: QA Engineer (WEX)
-## Project with a Challenge to selective process to WEX for QA Engineer employment, following this topics bellow
+![SpecFlow](https://www.specflow.org/wp-content/uploads/2016/07/SF_Logo.png)
+# Challenger: Testing SpecFlow (Behavior Driven Development for .NET)
+## Project with a Challenge to understand Behavior Driven Development for .NET, following this topics bellow
 
 
 ### Session 01
