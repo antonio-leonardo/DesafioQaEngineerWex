@@ -68,7 +68,7 @@
     <None Include="WexIncAutomatedTest.feature" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\QaEngineerWex.Model\SpecFlow.Challenge.Model.csproj">
+    <ProjectReference Include="..\SpecFlow.Challenge.Model\SpecFlow.Challenge.Model.csproj">
       <Project>{F0131461-CB4D-4615-88FC-8F1324E993F6}</Project>
       <Name>SpecFlow.Challenge.Model</Name>
     </ProjectReference>
