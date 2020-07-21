@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading;
 using System.Xml.Serialization;
 
-namespace QaEngineerWex.ConsoleApp
+namespace SpecFlow.Challenge.ConsoleApp
 {
     class Program
     {
