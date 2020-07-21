@@ -1,6 +1,6 @@
-﻿using QaEngineerWex.Model.Service;
+﻿using SpecFlow.Challenge.Model.Abstractions;
 
-namespace QaEngineerWex.Model.WEX
+namespace SpecFlow.Challenge.Model.WEX
 {
     public class WexSearch : IEcommerceSearch<WexObjectType>
     {

@@ -1,6 +1,6 @@
-﻿using QaEngineerWex.Model.Service;
+﻿using SpecFlow.Challenge.Model.Abstractions;
 
-namespace QaEngineerWex.Model
+namespace SpecFlow.Challenge.Model
 {
     /// <summary>
     /// Any Item at Amazon Site

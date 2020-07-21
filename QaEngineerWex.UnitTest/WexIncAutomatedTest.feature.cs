@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace QaEngineerWex.UnitTest
+namespace SpecFlow.Challenge.UnitTest
 {
     using TechTalk.SpecFlow;
     using System;
@@ -19,7 +19,7 @@ namespace QaEngineerWex.UnitTest
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.1.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("WexIncAutomatedTest", Description="\tTest for QA Engineer position\r\n\tWith a WEX Test Automation case", SourceFile="WexIncAutomatedTest.feature", SourceLine=0)]
+    [TechTalk.SpecRun.FeatureAttribute("WexIncAutomatedTest", Description="\tvalition on Wex Inc Search functionality", SourceFile="WexIncAutomatedTest.feature", SourceLine=0)]
     public partial class WexIncAutomatedTestFeature
     {
         
@@ -34,7 +34,7 @@ namespace QaEngineerWex.UnitTest
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "WexIncAutomatedTest", "\tTest for QA Engineer position\r\n\tWith a WEX Test Automation case", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "WexIncAutomatedTest", "\tvalition on Wex Inc Search functionality", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -71,14 +71,14 @@ namespace QaEngineerWex.UnitTest
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("WEX Search validation", new string[] {
-                "mytag2"}, SourceLine=5)]
+                "mytag2"}, SourceLine=4)]
         public virtual void WEXSearchValidation()
         {
             string[] tagsOfScenario = new string[] {
                     "mytag2"};
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("WEX Search validation", null, new string[] {
                         "mytag2"});
-#line 6
+#line 5
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -98,19 +98,19 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 7
+#line 6
  testRunner.Given("I navigate on \"www.wexinc.com\".", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 8
+#line 7
  testRunner.And("I select the option \"Health\" in the dropdown next to the search text input.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 9
+#line 8
  testRunner.Then("I search by \"corporative plans\".", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 10
+#line 9
  testRunner.And("I select any item of search result.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 11
+#line 10
  testRunner.When("I get the item, I check if this item is contained at \"AllWEX\", searched by \"plans" +
                         "\".", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden

@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using System.Collections.Generic;
 
-using QaEngineerWex.Model.Service;
+using SpecFlow.Challenge.Model.Abstractions;
 
-namespace QaEngineerWex.Model
+namespace SpecFlow.Challenge.Model
 {
     public class AmazonSelectedObject : ABEcommerceSelectedObject<AmazonObjectItem, AmazonObjectType>
     {

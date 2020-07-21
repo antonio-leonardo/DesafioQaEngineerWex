@@ -1,9 +1,8 @@
 ﻿Feature: AmazonAutomatedTest
-	Test for QA Engineer position
-	With a Test Automation case
+	valition on Amazon Search functionality
 
 @mytag1
-Scenario: WEX Brazil QA Test
+Scenario: Amazon Search validation
 	Given I navigate to "www.amazon.com".
 	And I select the option "Books" in the dropdown next to the search text input criteria.
 	Then I search for "Test automation".

@@ -1,6 +1,5 @@
 ﻿Feature: WexIncAutomatedTest
-	Test for QA Engineer position
-	With a WEX Test Automation case
+	valition on Wex Inc Search functionality
 
 @mytag2
 Scenario: WEX Search validation

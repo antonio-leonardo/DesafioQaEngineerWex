@@ -1,11 +1,10 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using QaEngineerWex.Model.WEX;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using TechTalk.SpecFlow;
+using System.Collections.Generic;
+using SpecFlow.Challenge.Model.WEX;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace QaEngineerWex.UnitTest
+namespace SpecFlow.Challenge.UnitTest
 {
     [Binding]
     public class WexIncAutomatedTestSteps

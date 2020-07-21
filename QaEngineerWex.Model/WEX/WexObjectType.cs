@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace QaEngineerWex.Model.WEX
+namespace SpecFlow.Challenge.Model.WEX
 {
     [Flags]
     public enum WexObjectType

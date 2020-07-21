@@ -1,4 +1,4 @@
-﻿namespace QaEngineerWex.Model
+﻿namespace SpecFlow.Challenge.Model
 {
     /// <summary>
     /// Based on Drop Down Menu citeria

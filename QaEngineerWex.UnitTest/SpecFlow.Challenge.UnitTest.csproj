@@ -7,8 +7,8 @@
     <ProjectGuid>{5012D543-F070-4649-ABC2-359B49DF1D7C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>QaEngineerWex.UnitTest</RootNamespace>
-    <AssemblyName>QaEngineerWex.UnitTest</AssemblyName>
+    <RootNamespace>SpecFlow.Challenge.UnitTest</RootNamespace>
+    <AssemblyName>SpecFlow.Challenge.UnitTest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -68,9 +68,9 @@
     <None Include="WexIncAutomatedTest.feature" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\QaEngineerWex.Model\QaEngineerWex.Model.csproj">
+    <ProjectReference Include="..\QaEngineerWex.Model\SpecFlow.Challenge.Model.csproj">
       <Project>{F0131461-CB4D-4615-88FC-8F1324E993F6}</Project>
-      <Name>QaEngineerWex.Model</Name>
+      <Name>SpecFlow.Challenge.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace QaEngineerWex.Model.Service
+namespace SpecFlow.Challenge.Model.Abstractions
 {
     /// <summary>
     /// Interface tha contains the E-Commerce object-item definition

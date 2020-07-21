@@ -1,9 +1,9 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using QaEngineerWex.Model;
+﻿using TechTalk.SpecFlow;
+using SpecFlow.Challenge.Model;
 using System.Collections.Generic;
-using TechTalk.SpecFlow;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace QaEngineerWex.UnitTest
+namespace SpecFlow.Challenge.UnitTest
 {
     [Binding]
     public class AmazonAutomatedTestSteps

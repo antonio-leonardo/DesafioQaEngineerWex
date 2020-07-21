@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
+using SpecFlow.Challenge.Model.Abstractions;
 
-using QaEngineerWex.Model.Service;
-
-namespace QaEngineerWex.Model.WEX
+namespace SpecFlow.Challenge.Model.WEX
 {
     public class WexObjectItem : IObjectItem<WexObjectType>
     {

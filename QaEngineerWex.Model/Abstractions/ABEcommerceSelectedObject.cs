@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 
-namespace QaEngineerWex.Model.Service
+namespace SpecFlow.Challenge.Model.Abstractions
 {
     /// <summary>
     /// E-Commerce abstraction that contains the core definitions of searchs

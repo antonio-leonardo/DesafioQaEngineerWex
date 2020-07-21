@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace QaEngineerWex.UnitTest
+namespace SpecFlow.Challenge.UnitTest
 {
     using TechTalk.SpecFlow;
     using System;
@@ -19,7 +19,7 @@ namespace QaEngineerWex.UnitTest
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.1.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("AmazonAutomatedTest", Description="\tTest for QA Engineer position\r\n\tWith a Test Automation case", SourceFile="AmazonAutomatedTest.feature", SourceLine=0)]
+    [TechTalk.SpecRun.FeatureAttribute("AmazonAutomatedTest", Description="\tvalition on Amazon Search functionality", SourceFile="AmazonAutomatedTest.feature", SourceLine=0)]
     public partial class AmazonAutomatedTestFeature
     {
         
@@ -34,7 +34,7 @@ namespace QaEngineerWex.UnitTest
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "AmazonAutomatedTest", "\tTest for QA Engineer position\r\n\tWith a Test Automation case", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "AmazonAutomatedTest", "\tvalition on Amazon Search functionality", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -70,15 +70,15 @@ namespace QaEngineerWex.UnitTest
             testRunner.CollectScenarioErrors();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("WEX Brazil QA Test", new string[] {
-                "mytag1"}, SourceLine=5)]
-        public virtual void WEXBrazilQATest()
+        [TechTalk.SpecRun.ScenarioAttribute("Amazon Search validation", new string[] {
+                "mytag1"}, SourceLine=4)]
+        public virtual void AmazonSearchValidation()
         {
             string[] tagsOfScenario = new string[] {
                     "mytag1"};
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("WEX Brazil QA Test", null, new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Amazon Search validation", null, new string[] {
                         "mytag1"});
-#line 6
+#line 5
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -98,21 +98,21 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 7
+#line 6
  testRunner.Given("I navigate to \"www.amazon.com\".", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 8
+#line 7
  testRunner.And("I select the option \"Books\" in the dropdown next to the search text input criteri" +
                         "a.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 9
+#line 8
  testRunner.Then("I search for \"Test automation\".", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 10
+#line 9
  testRunner.And("I select the cheapest book of the page without using any sorting method available" +
                         ".", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 11
+#line 10
  testRunner.When("I reach the detailed book page, I check if the name in the header is the same nam" +
                         "e of the book that I select previously.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden

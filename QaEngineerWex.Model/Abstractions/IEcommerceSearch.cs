@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace QaEngineerWex.Model.Service
+namespace SpecFlow.Challenge.Model.Abstractions
 {
     /// <summary>
     /// Interface that represents the E-Commerce Search concept
